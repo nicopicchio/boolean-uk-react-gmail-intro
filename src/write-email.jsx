@@ -20,7 +20,7 @@ function WriteEmail() {
 		<div className="write-email">
 			<img className="avatar" src={avatarImg} alt="avatar" width="60px" />
 			<div className="email-body-box">
-				<div className="top">
+				<div className="top-container">
 					<div className="top-left">
 						<img className="backArrow" src={backArrowImg} width="20px" />
 						<img src={dropdownImg} alt="dropdown arrow" width="10px" />
@@ -31,21 +31,25 @@ function WriteEmail() {
 					<div className="top-right">
 						<img className="expand" src={expandIconImg} width="20px" />
 					</div>
-					<div className="bottom">
-						<div className="bottom-left">
-							<img src={letterImg} alt="letter" width="20px" />
-							<img src={clipImg} alt="clip" width="20px" />
-							<img src={linkImg} alt="link" width="20px" />
-							<img src={emojiImg} alt="emoji" width="20px" />
-							<img src={triangleImg} alt="tringle" width="20px" />
-							<img src={pictureImg} alt="picture" width="20px" />
-							<img src={lockImg} alt="lock" width="20px" />
-							<img src={pencilImg} alt="pencil" width="20px" />
+				</div>
+				<div className="bottom-container">
+					<div className="bottom-left">
+						<div className="send-btn">
+							<h4>Send</h4>
+							<img src={dropdownImg} alt="dropdown" width="10px" />
 						</div>
-						<div className="bottom-right">
-							<img src={menuDotsVerticalImg} alt="menu item" width="20px" />
-							<img src={rubbishImg} alt="rubbish" width="20px" />
-						</div>
+						<img src={letterImg} alt="letter" width="20px" />
+						<img src={clipImg} alt="clip" width="20px" />
+						<img src={linkImg} alt="link" width="20px" />
+						<img src={emojiImg} alt="emoji" width="20px" />
+						<img src={triangleImg} alt="tringle" width="20px" />
+						<img src={pictureImg} alt="picture" width="20px" />
+						<img src={lockImg} alt="lock" width="20px" />
+						<img src={pencilImg} alt="pencil" width="20px" />
+					</div>
+					<div className="bottom-right">
+						<img src={menuDotsVerticalImg} alt="menu item" width="20px" />
+						<img src={rubbishImg} alt="rubbish" width="20px" />
 					</div>
 				</div>
 			</div>

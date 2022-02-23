@@ -1,26 +1,51 @@
+h4 {
+  display: inline;
+  margin-right: 10px;
+}
+
+p {
+  color: rgb(90, 90, 90);
+}
+
+.send-btn {
+  border-radius: 6px;
+  background: rgb(44, 110, 253);
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
 .write-email {
   display: grid;
   grid-template-columns: auto 1fr;
 }
 
-.top {
+.top-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .top-left,
 .top-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
-.bottom {
+.bottom-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bottom-left,
+.bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .email-body-box {
+  display: grid;
   width: 100%;
   height: 200px;
   border: 1px solid lightgray;
