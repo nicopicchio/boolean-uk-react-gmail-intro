@@ -1,5 +1,6 @@
 import './styles/app.css'
 
+
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
 import backArrow from './assets/icons/back-arrow.png'
 import downloadButton from './assets/icons/download-button.png'
